@@ -1,29 +1,32 @@
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    background-color: #f4f4f4;
-}
-header {
-    background: #2e4d23; /* Olive Green color */
-    color: white;
-    padding: 20px;
-    text-align: center;
-}
-nav {
-    background: #333;
+/* Mobile friendly container */
+.container {
+    max-width: 1000px;
+    margin: auto;
     padding: 10px;
-    text-align: center;
 }
-nav a {
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+th {
+    background-color: #2e4d23;
     color: white;
-    margin: 0 15px;
-    text-decoration: none;
-    font-weight: bold;
 }
-section {
-    padding: 20px;
-    margin: 20px;
-    background: white;
-    border-radius: 8px;
+
+/* Download Button Style */
+.btn-download {
+    background-color: #d9534f;
+    color: white;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 14px;
 }

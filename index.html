@@ -3,29 +3,91 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Indian Army UHQ Quota Recruitment Portal</title>
+    <title>Indian Army UHQ Quota Recruitment 2026</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>UHQ Quota Recruitment Portal</h1>
-        <p>Ex-Servicemen aur War Widows ke bacchon ke liye vishesh jankari</p>
+        <div class="logo-area">
+            <h1>Indian Army UHQ Quota Recruitment</h1>
+            <p>Unit Headquarters Quota Bharti & Relationship Certificate Information</p>
+        </div>
     </header>
 
     <nav>
-        <a href="#notifications">Bharti Notification</a>
+        <a href="#notifications">Notifications</a>
         <a href="#documents">Documentation</a>
-        <a href="#pyq">Sample Papers</a>
+        <a href="#papers">Sample Papers</a>
         <a href="#results">Results</a>
     </nav>
 
-    <section id="notifications">
-        <h2>Latest Bharti Notifications 2026</h2>
-        <p>Yahan sabhi Regimental Centres ki list update hogi...</p>
-    </section>
+    <div class="container">
+        <!-- Notification Section -->
+        <section id="notifications">
+            <h2>📢 Latest Bharti Notifications</h2>
+            <div class="table-container">
+                <table border="1">
+                    <tr>
+                        <th>Regimental Centre</th>
+                        <th>Exam Type</th>
+                        <th>Bharti Date</th>
+                        <th>Chart PDF</th>
+                    </tr>
+                    <tr>
+                        <td>The Grenadiers Regt Centre</td>
+                        <td>UHQ (OMR Based)</td>
+                        <td>Coming Soon</td>
+                        <td><a href="#" class="btn-download">View Chart</a></td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+
+        <!-- Documentation Section -->
+        <section id="documents">
+            <h2>📄 Required Documents</h2>
+            <ul>
+                <li><strong>Relationship Certificate:</strong> SRO dwara signed (Original).</li>
+                <li><strong>Education:</strong> 10th/12th Marksheet & Passing Certificate.</li>
+                <li><strong>Affidavits:</strong> Rs. 10/- stamp paper par (Joint Photo).</li>
+                <li><strong>Character Certificate:</strong> Sarpanch/Police dwara (Last 6 months).</li>
+                <li><strong>Caste/Residence:</strong> Tehsildar dwara verified.</li>
+            </ul>
+        </section>
+
+        <!-- Result Section -->
+        <section id="results">
+            <h2>🏆 Recruitment Results</h2>
+            <p>UHQ Quota merit list yahan update ki jayegi.</p>
+            <table border="1">
+                <tr>
+                    <th>Centre</th>
+                    <th>Category</th>
+                    <th>Result Date</th>
+                    <th>Download</th>
+                </tr>
+                <tr>
+                    <td>Rajput Regt Centre</td>
+                    <td>GD/Clerk</td>
+                    <td>--</td>
+                    <td><a href="#">Check Result</a></td>
+                </tr>
+            </table>
+        </section>
+
+        <!-- PYQ Section -->
+        <section id="papers">
+            <h2>📚 Previous Year Papers (PYQs)</h2>
+            <p>Agniveer GD/Clerk OMR Sample Papers download karein.</p>
+            <div class="paper-links">
+                <button onclick="alert('PDF loading...')">Army GD Sample Paper 1</button>
+                <button onclick="alert('PDF loading...')">Army Clerk Sample Paper 1</button>
+            </div>
+        </section>
+    </div>
 
     <footer>
-        <p>© 2026 UHQ Recruitment Portal - Jai Hind</p>
+        <p>© 2026 UHQ Recruitment Portal | Bharat Mata Ki Jai</p>
     </footer>
 </body>
 </html>
